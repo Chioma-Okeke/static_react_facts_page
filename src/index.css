@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  max-width: 550px;
+  margin: 40px auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  color: #DEEBF8;
+  height: 91px;
+  padding: 20px 26px;
+  font-size: 16px;
+}
+
+.nav > h4 {
+  font-weight: 600px;
+}
+
+.react-fact {
+  color: #61DAFB;
+  font-size: 22.253px;
+  font-weight: 700;
+  letter-spacing: -1.113px;
+  margin: 0px auto 0px 3px;
+}
+
+.main_component {
+  width: 550px;
+  height: 459px;
+  padding: 57px 27px;
+  background: #282D35;
+  color: #FFF;
+  background-image: url("./halfLogo.svg");
+  background-repeat: no-repeat;
+  background-position: right 55%;
+}
+
+.main_component > h1 {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 39.06px;
+  letter-spacing: -1.953px;
+}
+
+.fact_list {
+  color: #FFF;
+  margin: 0px;
+  height: 190px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fact_list > li {
+  padding: 20px 0px;
+  height: 18.898px;
+  width: 390px;
+}
+
+.fact_list > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
